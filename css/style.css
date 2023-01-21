@@ -1,0 +1,22 @@
+@import "./-topnav.css";
+@import "./-topslider.css";
+@import url("./-shiping.css");
+@import url("./-imggallery1.css");
+@import url("./-slider.css");
+@import url("./-imggallery2.css");
+@import url("./-footer.css");
+@import url("./-product.css");
+
+@font-face {
+    font-family: Sahel;
+    src: url('./font/Sahel.eot')format('eot'), url('./font/Sahel.woff2') format('woff2'), url('.font/Sahel.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+* {
+    font-family: Sahel;
+}
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}

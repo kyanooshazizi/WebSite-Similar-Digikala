@@ -1,0 +1,113 @@
+.bg-nav-top{
+    background-color: #232f3e;
+}
+.custom-nav-top,.bg-nav-top p{
+    font-size: 14px;
+}
+.custom-nav-top a{
+    color: #fff;
+    border-color: #494d51 !important;
+}
+.search-top button{
+    font-size: 14px;
+}
+.shopping-top a{
+    font-size: 18px;
+}
+.shopping-top P{
+    padding:5px;
+}
+.shopping-top a::after{
+    vertical-align:-4px;
+}
+.shopping-top .dropdown-menu{
+    right: 30% !important;
+ width: 300px !important;
+}
+.shopping-top .dropdown-menu img{
+    width: 65px;
+    height: 65px;
+}
+.shopping-top .dropdown-menu div span{
+    line-height: 20px;
+    font-size: 12px;
+    display: block;
+}
+.foroshgah .navbar a{
+    color: #fff !important;
+    font-size:14px;
+}
+.foroshgah .border-right{
+    border-color: #494d51 !important;
+}
+.btn-dropmenu-top .dropdown-menu{
+    right: 80px;
+    width: 200px;
+
+}
+.btn-dropmenu-top .dropdown-menu a{
+    border-bottom: 1px solid #ebeef1;
+}
+.foroshgah{
+    position: relative;
+}
+.foroshgah ul li{
+    position: unset !important;
+}
+.foroshgah ul li .dropdown-menu{
+    min-width: 76vw;
+    right: 11%;
+    border: none;
+}
+.foroshgah .navbar a.dropdown-item{
+    color: black !important;
+}
+.foroshgah ul li .dropdown-menu img{
+    width: 200px;
+    left:0px;
+    bottom: 2px;
+}
+.foroshgah ul li .dropdown-menu span{
+    vertical-align: middle;
+}
+.foroshgah ul li .dropdown-menu a:hover{
+margin-right: 6px;
+transition: all 0.3s linear;
+background-color:transparent;
+color: gold !important;
+}
+.foroshgah a.navbar-brand{
+    font-size: 16px !important;
+    font-weight: bolder !important;
+}
+.sign a{
+    font-size: 16px;
+    box-shadow: 0px 0px 5px #fff;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+/* modal start */
+.modal form input[type="email"],.modal form input[type="password"]{
+    border: none;
+    border-bottom: 2px solid #15de12;
+    border-radius: 0px;
+}
+/* end modal */
+
+@media(max-width: 768px){
+    .shopping-top1{
+        text-align: center !important;
+    }
+    .shopping-top1 .dropdown-menu{
+        right: 50% !important;
+    }
+}
+@media(max-width: 992px){
+    .foroshgah ul li .dropdown-menu img{
+        display: none;
+    }
+    .foroshgah .navbar a{
+        font-size:16px;
+    }
+}

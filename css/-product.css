@@ -1,0 +1,142 @@
+.doc-product{
+    background-color: #efefef;
+}
+.breadcrumb{
+    line-height:1px;
+    border-radius: 5px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+
+/* ویژگی های محصول */
+.product-atribute ul li a{
+    line-height: 15px;
+    margin-right: 0px !important;
+    font-size: 14px;
+}
+.product-atribute ul li{
+    margin-right: -20px;
+}
+.product-atribute ul li a span{
+    font-size: 14px;
+    margin-left: 5px;
+    color: blue;
+}
+.product-atribute ul li a .form-control{
+    width: 15%;
+}
+.product-atribute ul li a .reqest{
+    width: 370px;
+}
+/* نظر سنجی */
+.Survey .nav-tabs {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.Survey .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: rgb(108, 104, 104);
+    font-size: 14px;
+    border-bottom: 2px solid red;
+    border-radius: 0px;
+}
+.Survey .nav-tabs .nav-link {
+    border-top-left-radius: 5px !important; 
+    border-top-right-radius: 5px !important;
+}
+.Survey .tab-content .tab-pane{
+    line-height: 35px;
+    text-align: justify;
+}
+.Survey .tab-content .tab-pane .survery-progres .progress{
+height: 8px;
+}
+.Survey .tab-content .tab-pane .survery-progres .text{
+    font-size: 14px;
+}
+.Survey .tab-content .tab-pane .p-text-Professional{
+    font-size: 14px;
+}
+.Survey .tab-content .tab-pane .circle-icon-text .mi-1{
+    top: -10px;
+    right: -12px;
+    z-index: 1;
+    color: blue;
+}
+.Survey .tab-content .tab-pane .circle-icon-text .mi-2{
+    top: 44%;
+    right: -12px;
+    z-index: 1;
+    color: blue;
+}
+.Survey .tab-content .tab-pane .circle-icon-text .mi-3{
+    top: 74%;
+    right: -12px; 
+    z-index: 1;
+    color: blue;
+}
+/* شروع مشخصات فنی*/
+
+.Technical-Specifications ul li .bas-1{
+    margin-left: 10px;
+    flex-basis: 20%;
+    background-color: #efefef;
+    padding-right: 10px;
+}
+.Technical-Specifications ul li .bas-2{
+    flex-basis: 70%;
+    background-color: #efefef;
+    padding-right: 20px;
+}
+
+
+/* پایان مشخصات فنی */
+
+
+/* شروع نقد بررسی */
+.Survey .tab-content .tab-pane .media1 img{
+width: 50px;
+}
+.Survey .tab-content .tab-pane .media1 .media1-text{
+    font-size: 14px;
+}
+.Survey .tab-content .tab-pane .nazar #li-1{
+    list-style-type: none;
+    margin-right: -33px;
+    color: blue;
+    font-size: 14px;
+}
+.Survey .tab-content .tab-pane .nazar ul li::marker{
+    font-size: 23px;
+    color: #8b8888;
+}
+.Survey .tab-content .tab-pane .nazar ul li{
+    line-height: 27px;
+}
+.Survey .tab-content .tab-pane .nazar #li-2{
+    list-style-type: none;
+    margin-right: -33px;
+    color: red;
+    font-size: 14px;
+}
+.Survey .tab-content .tab-pane .nazar li{
+    font-size: 13px;
+}
+.Survey .tab-content .tab-pane .persen{
+    margin-top: 30%;
+}
+
+/* طراحی form */
+
+.Survey .tab-content .tab-pane form textarea{ 
+    width: 97% !important;
+    margin: 0px auto;
+    height: 150px}
+.Survey .tab-content .tab-pane .didgah{
+    width: 95% !important;
+    margin: 0px auto;
+}
+
+/* پایان نقد و بررسی */
+ .slider-product{
+    margin-top: -150px;
+ }                                                                                           

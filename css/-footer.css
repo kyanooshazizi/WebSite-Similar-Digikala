@@ -1,0 +1,20 @@
+footer{
+    background-color: #232f3e;
+    color: #fff;
+}
+.footer h5{
+    /* text-decoration: underline; */
+    padding-bottom:5px;
+    border-bottom: 2px solid #fff;
+    display: inline;
+}
+.footer ul li a{
+    padding-right: 0px;
+    color: #fff;
+}
+.footer .uptext .betext{
+    line-height: 10px;
+}
+.footer .uptext .upicon .material-symbols-outlined{
+    font-size: 40px !important;
+}

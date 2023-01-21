@@ -1,0 +1,15 @@
+.shiping p{
+    line-height: 8px;
+    font-size: 14px;
+}
+.shiping span{
+    font-size: 38px;
+    color: red;
+    padding: 5px;
+}
+@media (max-width:768px) {
+    .shiping{
+        background-color: #faf3f3;
+        padding: 5px;
+    }
+}

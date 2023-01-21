@@ -1,0 +1,113 @@
+.imggallery1 img{
+width: 100%;
+height: 100%;
+}
+/*start mini image1 */
+.miniimag1{
+background-color: #efefef;
+display: inline-block;
+}
+.miniimag1 img{
+    width: 60%;
+    height: 100%;
+}
+.miniimag1 p{
+    font-size: 12px;
+    line-height: 8px;
+    color: blue;
+}
+.container-miniimag1{
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow:0px 0px 8px 0px rgb(146, 141, 141);
+}
+.miniimag1-div{
+    padding:10px;
+}
+.miniimag1-div:hover{
+    box-shadow:0px 0px 8px 0px rgb(145, 139, 139);
+    border-radius: 5px;
+}
+/* <!-- پیشنهاد های ویژه محصولات --> */
+.pishnahad .tab-content .tab-pane .container{
+padding-left: 0px;
+padding-right: 0px;
+}
+.pishnahad .tab-content .tab-pane img{
+width: 50%;
+padding: 40px;
+}
+.pishnahad .tab-pane-text p{
+    font-size: 18px;
+}
+.pishnahad .tab-pane-text{
+    margin-top: 20px;
+}
+.pishnahad .tab-pane-text .timer span{
+color:#fff;
+font-size: 18px;
+background-color:red ;
+border-radius: 100%;
+padding: 10px;
+margin:5px;
+}
+.end{
+    top:40%;
+    z-index: 1;
+    right: 20%;
+    padding: 15px;
+    font-size: 18px;
+}
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background-color: transparent;
+    border: none;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+}
+.pishnahad .tab-pane-text .material-symbols-outlined{
+color: gold;
+}
+
+.timer #days::after{
+    content: " روز";
+    position: absolute;
+    top:47px;
+    right: 13px;
+    color: black;
+}
+.timer #hours::after{
+    content:"ساعت";
+    position: absolute;
+    top:47px;
+    right: 13px;
+    color: black;
+}
+.timer #mins::after{
+    content:"دقیقه";
+    position: absolute;
+    top:47px;
+    right: 13px;
+    color: black;
+}
+.timer #secs::after{
+    content:"ثانیه";
+    position: absolute;
+    top:47px;
+    right: 13px;
+
+    color: black;
+}
+@media(max-width:600px){
+   #myTabContent .tab-pane-text h4,#myTabContent .tab-pane-text span{
+    font-size: 12px;
+   }
+}
+.line-between{
+    box-shadow: 0px 0px 0.5px 0.5px #efefef;
+    z-index: 1;
+}
+#myTab h3{
+    border-bottom: 3px solid red;
+    right: 0px;
+}

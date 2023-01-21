@@ -1,0 +1,20 @@
+.slidertop-left1 img{
+width: 80%
+}
+.slidertop-left2 img{
+    width: 100%;
+    height:100%;
+}
+/* #carouselExampleCaptions .carousel-inner img{
+    height:fit-content !important;
+}
+.slidertop-left1 img,.slidertop-left2 img{
+    height: fit-content !important;
+} */
+.zoom-main img {
+    width: 100%;
+    height: 100%;
+}
+.zoom-main span {
+    border: none;
+}
